@@ -1,0 +1,9 @@
+{
+  "icon": "icon-help-alt",
+  "iconSize": 16,
+  "tooltipFontSize": 13,
+  "tooltipMaxWidth": 320,
+  "tooltipMinWidth": 180,
+  "tooltipPlacement": "auto",
+  "tooltipHorizontalAlign": "start"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "PropertyToolTip",
+  "name": "PropertyToolTip",
+  "version": "0.0.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "Property Tool Tip Entry Point",
+      "alias": "PropertyToolTip.EntryPoint",
+      "type": "backofficeEntryPoint",
+      "js": "/App_Plugins/PropertyToolTip/property-tooltip.js"
+    },
+    {
+      "type": "dashboard",
+      "alias": "PropertyToolTip.SettingsDashboard",
+      "name": "Property ToolTip",
+      "element": "/App_Plugins/PropertyToolTip/property-tooltip-dashboard.js",
+      "elementName": "property-tooltip-settings-dashboard",
+      "weight": -9999,
+      "meta": {
+        "label": "Property ToolTip",
+        "pathname": "property-tooltip-settings"
+      },
+      "conditions": [
+        {
+          "alias": "Umb.Condition.SectionAlias",
+          "match": "Umb.Section.Settings"
+        }
+      ]
+    }
+  ]
+}
