@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
@@ -9,7 +9,7 @@
 		<Product>Our.Umbraco.PropertyToolTip</Product>
 		<Title>Property ToolTip</Title>
 		<Authors>ZAAKS!</Authors>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Description>
 			Property ToolTip keeps Umbraco property descriptions available, but shows them as small tooltip help text beside each property label.
 		</Description>
@@ -20,7 +20,7 @@
 		<PackageTags>umbraco package;umbraco-marketplace</PackageTags>
 		<Copyright>$([System.DateTime]::Now.Year)</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<ApplicationIcon>icon.png</ApplicationIcon>
+		<PackageIconUrl>https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/PropertyToolTip/icon.png</PackageIconUrl>
   </PropertyGroup>
 
 
