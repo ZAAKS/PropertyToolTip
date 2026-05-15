@@ -1,8 +1,7 @@
 # 🛈 Property ToolTip
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![NuGet](https://img.shields.io/nuget/v/PropertyToolTip)](https://www.nuget.org/packages/PropertyToolTip/)
-[![Umbraco](https://img.shields.io/badge/Umbraco-Backoffice-3544b1)](https://umbraco.com/)
+[![NuGet](https://img.shields.io/nuget/v/Our.Umbraco.PropertyToolTip)](https://www.nuget.org/packages/Our.Umbraco.PropertyToolTip/)
 
 **Property ToolTip** is a small Umbraco backoffice package that turns document type property descriptions into neat tooltip help text beside each property label.
 
@@ -43,10 +42,10 @@ Implementation-wise it’s a backoffice entry point that scans for `umb-property
 You can install via **NuGet**:
 
 ```powershell
-Install-Package PropertyToolTip
+Install-Package Our.Umbraco.PropertyToolTip
 ```
 
-Or grab it from the [NuGet Gallery](https://www.nuget.org/packages/PropertyToolTip/).
+Or grab it from the [NuGet Gallery](https://www.nuget.org/packages/Our.Umbraco.PropertyToolTip/).
 
 After installation, restart your Umbraco site and open the backoffice. Property descriptions in content editing screens will appear as tooltip help text beside the property labels.
 
@@ -56,7 +55,7 @@ After installation, restart your Umbraco site and open the backoffice. Property 
 
 Here is a quick look at the idea:
 
-![Screenshot](https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/dev/screenshot/property-tooltip.png)
+![Screenshot](https://raw.githubusercontent.com/ZAAKS/PropertyToolTip//screenshot/property-tooltip.png)
 
 ---
 
@@ -98,7 +97,7 @@ You can change Property ToolTip behavior from the Umbraco backoffice:
 
 Add a screenshot of the Settings dashboard here:
 
-![Settings dashboard screenshot](screenshot/property-tooltip-settings.png)
+![Settings dashboard screenshot](https://raw.githubusercontent.com/ZAAKS/PropertyToolTip//screenshot/property-tooltip-setting.png)
 
 ---
 

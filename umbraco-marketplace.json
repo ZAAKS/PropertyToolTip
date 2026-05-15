@@ -1,0 +1,42 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AddOnPackagesRequiredForUmbracoCloud": [],
+  "AuthorDetails": {
+    "Name": "ZAAKS!",
+    "Url": "https://github.com/ZAAKS",
+    "ImageUrl": "https://zaaks.nl/media/g2tdtsvt/zaaks_umbraco__logo.png",
+	"Contributors": [
+	  {
+		"Name": "Pasang Tamang",
+		"Url": "https://github.com/TechPdo",
+	  }
+	],
+    "SyncContributorsFromRepository": false
+  },
+  "Category": "Editor Tools",
+  "Description": "Property ToolTip keeps Umbraco property descriptions available, but shows them as small tooltip help text beside each property label.",
+  "IsSubPackageOf": "",
+  "PackageType": "Package",
+  "PackagesByAuthor": [],
+  "RelatedPackages": [],
+  "LicenseTypes": [ "Free" ],
+  "Tags": [ "umbraco", "plugin", "package", "umbraco-marketplace"],
+  "Title": "Property Tooltip",
+  "PackageIconUrl": "https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/PropertyToolTip/icon.png"
+  "VersionSpecificPackageIds": [
+    {
+      "UmbracoMajorVersion": 17,
+      "PackageId": "Our.Umbraco.PropertyToolTip"
+    }
+  ],
+  "Screenshots": [
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/screenshot/property-tooltip.png",
+      "Caption": "Property Tooltip"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/screenshot/property-tooltip-setting.png",
+      "Caption": "Property Tooltip Setting"
+    }
+  ]
+}

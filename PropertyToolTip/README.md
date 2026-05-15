@@ -1,9 +1,5 @@
 # 🛈 Property ToolTip
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![NuGet](https://img.shields.io/nuget/v/PropertyToolTip)](https://www.nuget.org/packages/PropertyToolTip/)
-[![Umbraco](https://img.shields.io/badge/Umbraco-Backoffice-3544b1)](https://umbraco.com/)
-
 **Property ToolTip** is a small Umbraco backoffice package that turns document type property descriptions into neat tooltip help text beside each property label.
 
 You already wrote the helpful description. This package just gives it a cleaner place to live.
@@ -43,10 +39,10 @@ Implementation-wise it’s a backoffice entry point that scans for `umb-property
 You can install via **NuGet**:
 
 ```powershell
-Install-Package PropertyToolTip
+Install-Package Our.Umbraco.PropertyToolTip
 ```
 
-Or grab it from the [NuGet Gallery](https://www.nuget.org/packages/PropertyToolTip/).
+Or grab it from the [NuGet Gallery](https://www.nuget.org/packages/Our.Umbraco.PropertyToolTip/).
 
 After installation, restart your Umbraco site and open the backoffice. Property descriptions in content editing screens will appear as tooltip help text beside the property labels.
 

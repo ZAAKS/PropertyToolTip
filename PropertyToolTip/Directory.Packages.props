@@ -6,9 +6,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- Umbraco API packages - Used by extension templates -->
-    <PackageVersion Include="Umbraco.Cms.Api.Common" Version="17.3.5" />
-    <PackageVersion Include="Umbraco.Cms.Api.Management" Version="17.3.5" />
-    <PackageVersion Include="Umbraco.Cms.Web.Common" Version="17.3.5" />
-    <PackageVersion Include="Umbraco.Cms.Web.Website" Version="17.3.5" />
+    <PackageVersion Include="Umbraco.Cms.Api.Common" Version="17.4.0" />
+    <PackageVersion Include="Umbraco.Cms.Api.Management" Version="17.4.0" />
+    <PackageVersion Include="Umbraco.Cms.Web.Common" Version="17.4.0" />
+    <PackageVersion Include="Umbraco.Cms.Web.Website" Version="17.4.0" />
   </ItemGroup>
 </Project>

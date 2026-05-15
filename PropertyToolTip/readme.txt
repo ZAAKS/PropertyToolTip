@@ -12,7 +12,7 @@
   |_| |_| |_|\__,_|_| |_|_|\_\  \__, |\___/ \__,_(_)
                                 |___/
 
-PropertyToolTip keeps Umbraco property descriptions available, but shows them as
+Property ToolTip keeps Umbraco property descriptions available, but shows them as
 small tooltip help text beside each property label. It helps keep content editing
 screens cleaner while still giving editors the guidance they need.
 

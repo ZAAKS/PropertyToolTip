@@ -4,12 +4,22 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <StaticWebAssetBasePath>/</StaticWebAssetBasePath>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <PackageId>PropertyToolTip</PackageId>
-    <Product>PropertyToolTip</Product>
-    <Title>PropertyToolTip</Title>
+		
+		<PackageId>Our.Umbraco.PropertyToolTip</PackageId>
+		<Product>Our.Umbraco.PropertyToolTip</Product>
+		<Title>Property ToolTip</Title>
+		<Version>1.0.0</Version>
+		<Authors>ZAAKS!;Pasang Tamang</Authors>
+		<Description>
+			Property ToolTip keeps Umbraco property descriptions available, but shows them as small tooltip help text beside each property label.
+		</Description>
+		<PackageProjectUrl>https://github.com/ZAAKS/PropertyToolTip</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/ZAAKS/PropertyToolTip</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>umbraco package;umbraco-marketplace</PackageTags>
+		<Copyright>$([System.DateTime]::Now.Year) © $(Authors)</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 
@@ -22,17 +32,25 @@
   </ItemGroup>
 
 
-  <ItemGroup>
-    <!-- Don't include the client folder as part of packaging nuget build -->
-    <Content Remove="Client\**" />
+	<!-- Optional folders -->
+	<ItemGroup>
+		<Folder Include="wwwroot\App_Plugins\PropertyToolTip\" />
+		<None Include="buildTransitive\**" Pack="true" PackagePath="buildTransitive" />
+	</ItemGroup>
 
-    <!-- However make the Umbraco-package.json included for dotnet pack or nuget package and visible to the solution -->
-    <None Include="Client\public\umbraco-package.json" Pack="false" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Client\src\" />
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
+	<!-- Exclude client folder from NuGet -->
+	<ItemGroup>
+		<Content Remove="Client\**" />
+		<None Include="Client\public\umbraco-package.json" Pack="false" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="readme.txt" Pack="true" PackagePath="/" />
+	</ItemGroup>
 
 </Project>

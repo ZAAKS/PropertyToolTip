@@ -1,0 +1,22 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<!-- Existing App_Plugins logic (unchanged) -->
+	<PropertyGroup>
+		<PropertyToolTipPluginPath>
+			$(MSBuildThisFileDirectory)..\wwwroot\App_Plugins\PropertyToolTip\**\*.*
+		</PropertyToolTipPluginPath>
+	</PropertyGroup>
+	<Target Name="CopyPropertyToolTipAssets" BeforeTargets="BeforeBuild">
+		<ItemGroup>
+			<PropertyToolTipPluginFiles Include="$(PropertyToolTipPluginPath)" />
+		</ItemGroup>
+		<Message Text="Copying PropertyToolTip plugin assets" Importance="high" />
+		<Copy
+		  SourceFiles="@(PropertyToolTipPluginFiles)"
+		  DestinationFiles="@(PropertyToolTipPluginFiles->'$(MSBuildProjectDirectory)\wwwroot\App_Plugins\PropertyToolTip\%(RecursiveDir)%(Filename)%(Extension)')"
+		  SkipUnchangedFiles="true" />
+	</Target>
+	<Target Name="ClearPropertyToolTipAssets" BeforeTargets="Clean">
+		<RemoveDir Directories="$(MSBuildProjectDirectory)\wwwroot\App_Plugins\PropertyToolTip\" />
+	</Target>
+</Project>
