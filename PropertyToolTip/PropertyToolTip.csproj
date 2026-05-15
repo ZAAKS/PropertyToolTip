@@ -8,8 +8,7 @@
 		<PackageId>Our.Umbraco.PropertyToolTip</PackageId>
 		<Product>Our.Umbraco.PropertyToolTip</Product>
 		<Title>Property ToolTip</Title>
-		<Version>1.0.0</Version>
-		<Authors>ZAAKS!;Pasang Tamang</Authors>
+		<Version>1.0.1</Version>
 		<Description>
 			Property ToolTip keeps Umbraco property descriptions available, but shows them as small tooltip help text beside each property label.
 		</Description>
@@ -18,7 +17,7 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>umbraco package;umbraco-marketplace</PackageTags>
-		<Copyright>$([System.DateTime]::Now.Year) © $(Authors)</Copyright>
+		<Copyright>$([System.DateTime]::Now.Year)</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
