@@ -20,7 +20,7 @@
 		<PackageTags>umbraco package;umbraco-marketplace</PackageTags>
 		<Copyright>$([System.DateTime]::Now.Year)</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageIconUrl>https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/PropertyToolTip/icon.png</PackageIconUrl>
+		<Icon>https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/PropertyToolTip/icon.png</Icon>
   </PropertyGroup>
 
 
