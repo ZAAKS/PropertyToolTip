@@ -8,6 +8,7 @@
 		<PackageId>Our.Umbraco.PropertyToolTip</PackageId>
 		<Product>Our.Umbraco.PropertyToolTip</Product>
 		<Title>Property ToolTip</Title>
+		<Authors>ZAAKS!</Authors>
 		<Version>1.0.1</Version>
 		<Description>
 			Property ToolTip keeps Umbraco property descriptions available, but shows them as small tooltip help text beside each property label.
@@ -19,6 +20,7 @@
 		<PackageTags>umbraco package;umbraco-marketplace</PackageTags>
 		<Copyright>$([System.DateTime]::Now.Year)</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<ApplicationIcon>icon.png</ApplicationIcon>
   </PropertyGroup>
 
 
@@ -40,6 +42,7 @@
 	<!-- Exclude client folder from NuGet -->
 	<ItemGroup>
 		<Content Remove="Client\**" />
+		<Content Include="icon.png" />
 		<None Include="Client\public\umbraco-package.json" Pack="false" />
 	</ItemGroup>
 	<ItemGroup>
