@@ -3,13 +3,13 @@
   "AddOnPackagesRequiredForUmbracoCloud": [],
   "AuthorDetails": {
     "Name": "ZAAKS!",
-	"description":"ZAAKS! is a digital agency specializing in Umbraco CMS, .NET development, AI-powered solutions, and custom web platforms. With decades of experience in the Microsoft and Umbraco ecosystem, ZAAKS! focuses on delivering scalable, user-friendly, and future-ready digital experiences tailored to modern business needs."
+	"Description":"ZAAKS! is a digital agency specializing in Umbraco CMS, .NET development, AI-powered solutions, and custom web platforms. With decades of experience in the Microsoft and Umbraco ecosystem, ZAAKS! focuses on delivering scalable, user-friendly, and future-ready digital experiences tailored to modern business needs.",
     "Url": "https://github.com/ZAAKS",
     "ImageUrl": "https://zaaks.nl/media/g2tdtsvt/zaaks_umbraco__logo.png",
 	"Contributors": [
 	  {
 		"Name": "Pasang Tamang",
-		"Url": "https://github.com/TechPdo",
+		"Url": "https://github.com/TechPdo"
 	  }
 	],
     "SyncContributorsFromRepository": false
@@ -23,7 +23,7 @@
   "LicenseTypes": [ "Free" ],
   "Tags": [ "umbraco", "plugin", "package", "umbraco-marketplace"],
   "Title": "Property Tooltip",
-  "PackageIconUrl": "https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/PropertyToolTip/icon.png"
+  "PackageIconUrl": "https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/PropertyToolTip/icon.png",
   "VersionSpecificPackageIds": [
     {
       "UmbracoMajorVersion": 17,
