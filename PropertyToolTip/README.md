@@ -52,7 +52,7 @@ After installation, restart your Umbraco site and open the backoffice. Property 
 
 Here is a quick look at the idea:
 
-![Screenshot](https://raw.githubusercontent.com/ZAAKS/PropertyToolTip//screenshot/property-tooltip.png)
+![Screenshot](https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/screenshot/property-tooltip.png)
 
 ---
 
@@ -94,7 +94,7 @@ You can change Property ToolTip behavior from the Umbraco backoffice:
 
 Add a screenshot of the Settings dashboard here:
 
-![Settings dashboard screenshot](https://raw.githubusercontent.com/ZAAKS/PropertyToolTip//screenshot/property-tooltip-setting.png)
+![Settings dashboard screenshot](https://raw.githubusercontent.com/ZAAKS/PropertyToolTip/main/screenshot/property-tooltip-setting.png)
 
 ---
 
